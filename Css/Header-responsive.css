@@ -1,0 +1,98 @@
+@media screen and (max-width: 380px) {
+  header nav #buger{
+  	display: grid;
+  	width: 14%;
+  	margin: 7vw;
+  }
+    header nav .logo{
+  	font-size:1.6em;
+  	width: 100%;
+  	text-align: center;
+  }
+}
+@media screen and (max-width: 411px) {
+   header nav #buger{
+    display: grid;
+    width: 15%;
+    margin: 6vw;
+  }
+}
+@media screen and (max-width: 573px) {
+  header:after,
+  header:before{
+    display: none;
+  }
+}
+@media screen and (max-width: 637px) {
+  header nav #buger{
+    display: grid;
+    width: 8%;
+    margin: 4vw;
+  }
+}
+@media screen and (max-width: 1084px) {
+  header:before,
+  header:after{
+  height: 5%;
+  width: 12%;
+  }
+}
+@media screen and (max-width: 1087px) {
+  header nav .nav-link{
+  height: 100%;
+  width: 0;
+  position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #5C2D91;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  header nav .nav-link li a:after,
+  header nav .nav-link li a:before{
+    display: none;
+  }
+  header nav .nav-link li{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  }
+  header nav .logo{
+    font-size:1.8em;
+    width: 100%;
+    text-align: center;
+  }
+  header nav #buger{
+    display: grid;
+    cursor: pointer;
+  }
+
+}
+@media screen and (max-width: 1039px) {
+   header nav .logo{
+    font-size:1.5em;
+    width: 26%;
+  }
+   header nav .nav-link li{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  }
+  .clearFix-new{
+    display:block;
+  }
+}
+@media screen and (max-width: 1274px) {
+   header nav .logo{
+    font-size:1.6em;
+  }
+}
+@media screen and (max-width: 1433px) { 
+  header nav .logo{
+    font-size:1.6em;
+    width: 25%;
+  }
+}

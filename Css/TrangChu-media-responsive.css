@@ -1,0 +1,300 @@
+
+@media screen and (max-width: 1819px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-67deg);
+  }
+}
+@media screen and (max-width: 1681px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-53deg);
+  }
+}
+@media screen and (max-width: 1796px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-55deg);
+  }
+}
+@media screen and (max-width: 1573px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-55deg);
+  }
+}
+@media screen and (max-width: 1484px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-56deg);
+  }
+}
+@media screen and (max-width: 1433px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-57deg);
+  }
+  header nav .logo{
+  	font-size:1.6em;
+  	width: 25%;
+  }
+}
+@media screen and (max-width: 1388px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-58deg);
+  }
+}
+@media screen and (max-width: 1287px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-60deg);
+  }
+}
+@media screen and (max-width: 1274px) {
+   header nav .logo{
+  	font-size:1.6em;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-63deg);
+  }
+}
+@media screen and (max-width: 1039px) {
+   header nav .logo{
+  	font-size:1.5em;
+  	width: 26%;
+  }
+   header nav .nav-link li{
+	height: 100%;
+	width: 100%;
+	display: flex;
+  }
+  .clearFix-new{
+  	display:block;
+  }
+  .wrap-bodynews .new-first .new-first-left{
+  	width: 100%;
+  }
+  .wrap-bodynews .new-first .new-first-right{
+  	width: 100%;
+  }
+  .wrap-bodynews .new-first{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 55%;
+	justify-content: space-between;
+	float:left;
+  }
+  .wrap-bodynews .new-first h2{
+  	width: 100%;
+  }
+  .wrap-editorPick .wrap-textEditor .wrap-body .left .news-container{
+  	display: block;
+  }
+  .wrap-editorPick .wrap-textEditor .wrap-body .left .news-contant img{
+  	height: auto;
+  }
+}
+@media screen and (max-width: 1087px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-64deg);
+  
+  }
+  header nav .nav-link{
+	height: 100%;
+ 	width: 0;
+ 	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	display: block;
+  	background-color: #5C2D91;
+  	overflow-x: hidden;
+  	transition: 0.5s;
+  	padding-top: 60px;
+  }
+  header nav .nav-link li a:after,
+  header nav .nav-link li a:before{
+  	display: none;
+  }
+  header nav .nav-link li{
+	height: 15%;
+	width: 100%;
+	display: flex;
+  }
+  header nav .logo{
+  	font-size:1.8em;
+  	width: 100%;
+  	text-align: center;
+  }
+  .bg-header{
+	top:10%;
+  }
+  header nav #buger{
+  	display: grid;
+  	cursor: pointer;
+  }
+
+}
+@media screen and (max-width: 1084px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-64deg);
+  }
+  header:before,
+  header:after{
+	height: 5%;
+	width: 12%;
+  }
+}
+@media screen and (max-width: 1011px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-65deg);
+  }
+}
+@media screen and (max-width: 976px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-66deg);
+  }
+}
+@media screen and (max-width: 934px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-67deg);
+  }
+}
+@media screen and (max-width: 890px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-68deg);
+  }
+  .bg-header{
+  	height: 60vh;
+  }
+}
+@media screen and (max-width: 835px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-69deg);
+  }
+  .wrap-bodynews .news-content .news-content-body{
+  	display: block;
+  	text-align: center;
+  	height: auto;
+  }
+  .wrap-bodynews .news-content{
+  	height: auto;
+  }
+  .wrap-bodynews .news-content .news-content-body .news-khoi{
+  	width: 100%;
+  }
+
+   .vietnam-news .news-content .news-content-body{
+  	display: block;
+  	text-align: center;
+  	height: auto;
+  }
+  .vietnam-news .news-content{
+  	height: auto;
+  }
+  .vietnam-news .news-content .news-content-body .news-khoi{
+  	width: 100%;
+  }
+  .vietnam-news .news-content .part-header{
+  	display: block;
+  }
+  .wrap-editorPick .wrap-textEditor .wrap-body{
+  	display: block;
+  	height: auto;
+  }
+  .wrap-editorPick .wrap-textEditor .wrap-body .left{
+  	width: 100%;
+  	height: auto;
+  }
+  .wrap-editorPick .wrap-textEditor .wrap-body .right{
+  	width: 100%;
+  	height: auto;
+  	padding:0;
+  }
+  footer{
+  	height: 60vh;
+  }
+}
+@media screen and (max-width: 789px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-71deg);
+  }
+}
+@media screen and (max-width: 713px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-72deg);
+  }
+}
+@media screen and (max-width: 667px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-73deg);
+  }
+}
+@media screen and (max-width: 637px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-74deg);
+  }
+  header nav #buger{
+  	display: grid;
+  	width: 8%;
+  	margin: 4vw;
+  }
+}
+@media screen and (max-width: 605px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-75deg);
+  }
+}
+@media screen and (max-width: 573px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-76deg);
+  }
+  header:after,
+  header:before{
+  	display: none;
+  }
+}
+@media screen and (max-width: 535px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-77deg);
+  }
+}
+@media screen and (max-width: 489px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-78deg);
+  padding:7px;
+  }
+}
+@media screen and (max-width: 454px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-79deg);
+  padding:7px;
+  }
+}
+@media screen and (max-width: 411px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-80deg);
+  padding:7px;
+  }
+   header nav #buger{
+  	display: grid;
+  	width: 15%;
+  	margin: 6vw;
+  }
+  .bg-header{
+  	height: 45vh;
+  	width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .bg-header h3{
+  transform: translate(-50%, -50%) rotateZ(-77deg);
+  padding:6px;
+  }
+  header nav #buger{
+  	display: grid;
+  	width: 14%;
+  	margin: 7vw;
+  }
+    header nav .logo{
+  	font-size:1.6em;
+  	width: 100%;
+  	text-align: center;
+  }
+}

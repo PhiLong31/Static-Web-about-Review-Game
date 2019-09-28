@@ -1,0 +1,36 @@
+@media screen and (max-width: 1337px) {
+	header nav{
+	left: -4vh;
+	}
+}
+@media screen and (max-width: 1141px) {
+	header nav{
+	left: -6vh;
+	}
+}
+@media screen and (max-width: 813px) {
+	header nav{
+	left: -8vh;
+	}
+	.wrap-body{
+		display: block;
+	}
+	.wrap-body .wrap-right,
+	.wrap-body .wrap-left{
+		width: 100%;
+	}
+	.wrap-body .wrap-left img{
+		height: 30vw;
+	}
+}
+@media screen and (max-width: 592px) {
+	header nav{
+	left: -13vh;
+	}
+	header nav ul li a:before{
+		display: none;
+	}
+	header nav ul li a{
+		font-size:4vw;
+	}
+}
